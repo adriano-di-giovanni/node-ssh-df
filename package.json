@@ -1,10 +1,10 @@
 {
   "name": "node-ssh-df",
-  "version": "0.0.0",
-  "description": "",
+  "version": "0.1.0",
+  "description": "A Node.js module to check disk space on remote machines using ssh and df Unix program",
   "main": "lib/df.js",
   "scripts": {
-    "test": "mocha --reporter spec test/"
+    "test": "mocha --reporter spec --timeout 60s test/"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,10 @@
   "bugs": {
     "url": "https://github.com/adriano-di-giovanni/node-ssh-df/issues"
   },
-  "homepage": "https://github.com/adriano-di-giovanni/node-ssh-df"
+  "homepage": "https://github.com/adriano-di-giovanni/node-ssh-df",
+  "dependencies": {
+    "node-df": "^0.1.1",
+    "ssh2": "^0.2.25",
+    "underscore": "^1.6.0"
+  }
 }
