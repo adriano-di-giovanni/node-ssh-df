@@ -1,0 +1,23 @@
+{
+  "name": "node-ssh-df",
+  "version": "0.0.0",
+  "description": "",
+  "main": "lib/df.js",
+  "scripts": {
+    "test": "mocha --reporter spec test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adriano-di-giovanni/node-ssh-df"
+  },
+  "keywords": [
+    "ssh",
+    "df"
+  ],
+  "author": "Adriano Di Giovanni <me@adrianodigiovanni.com> (http://adrianodigiovanni.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adriano-di-giovanni/node-ssh-df/issues"
+  },
+  "homepage": "https://github.com/adriano-di-giovanni/node-ssh-df"
+}
