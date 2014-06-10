@@ -1,6 +1,6 @@
 {
   "name": "node-ssh-df",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A Node.js module to check disk space on remote machines using ssh and df Unix program",
   "main": "lib/df.js",
   "scripts": {
